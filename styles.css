@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    background-color: #ff0000;
+}
+.navbar .container-fluid{
+    background-color: #ff0000;
+}
+.navbar .navbar-brand{
+    color: #fff;
+    font-size: bold;
+}
+.navbar .nav navbar-nav .navbar-right{
+    color: #fff;
+}
+.navbar
+.navbar
