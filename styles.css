@@ -8,15 +8,71 @@
 body{
     background-color: #ff0000;
 }
-.navbar .container-fluid{
+.navbar{
+    padding-right: 70px;
     background-color: #ff0000;
+
 }
 .navbar .navbar-brand{
     color: #fff;
-    font-size: bold;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 .navbar .nav navbar-nav .navbar-right{
+    color: #fff;    
+}
+.navbar ul li a{
+    color: #fff;
+    border-radius: 10px;
+    padding-right: 20px;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.navbar ul li a:hover{
+    background-color: #fff;
+    color: hsl(0, 100%, 50%);
+}
+.row .buger{
+    padding: 80px;
+
+}
+.row .buger span{
+    font-size: 50px;
+    color: rgb(228, 113, 98);
+    font-weight: bold;
+}
+.row .buger h2{
+    color: #fff;
+    font-weight: bold;
+}
+.row .buger p{
     color: #fff;
 }
-.navbar
-.navbar
+.btn{
+    color: #fff;
+    background-color: rgb(228, 113, 98);
+}
+.btn:hover{
+    background-color: rgb(237, 232, 241);
+    color: #ff0000;
+}
+.image{
+    padding: 80px;
+}
+.icons{
+    font-size: 25px;
+    color: #fff;
+    padding: 40px;
+}
+.icons i:hover{
+    background-color: rgb(237, 232, 241);
+    color: #ff0000;
+}
+.icons i{
+    padding: 15px;
+    border-radius: 50%;
+    background-color:rgb(228, 113, 98);
+}
